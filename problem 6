@@ -1,0 +1,5 @@
+## Run command without any output 
+
+1.Open terminal and type any command 
+2.Once you press enter your output of given command must not  print
+3.You are not allowed to redirect output anywhere 
