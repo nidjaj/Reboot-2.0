@@ -1,9 +1,10 @@
 ## play with files and directories 
 ### Problem
-  1.Create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory 
-  2.Create  4  directories   aa aaa aaaa  under  /tmp directory 
-  3.Give ls command to  list the content of  /tmp directory 
-  4.Make sure it will only list the content (file|directory)  having 2 char in their name.
+
+1.Create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory  
+2.Create  4  directories   aa aaa aaaa  under  /tmp directory  
+3.Give ls command to  list the content of  /tmp directory  
+4.Make sure it will only list the content (file|directory)  having 2 char in their name. 
 ### Solution 
  ```
 [nidhijajoo@localhost ~]$ cd /tmp
