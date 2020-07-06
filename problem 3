@@ -1,5 +1,0 @@
-Question 3:  create a directory structure 
-You are only allowed to use a single command and only one time
-
-Answer 
->>mkdir -p  a/{b/{g/k/reboot.txt,h/j/reboot.txt},c/{i/j/reboot.txt,j/l/reboot.txt},d/{f/l/reboot.txt,e/m/reboot.txt}}
