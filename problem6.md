@@ -6,6 +6,9 @@
 - You are not allowed to redirect output anywhere
 
 ### Solution
+- you can run Bash -d commands then it can traverse the filesystem or direct the output of a program to a file
+
+
 
 
 
