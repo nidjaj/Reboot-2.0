@@ -7,7 +7,7 @@
 
 ### Solution
 - we can run Bash -d commands then it can traverse the filesystem or direct the output of a program to a file
->Bash -d
+>Bash -D
 - we can also use curl -s command 
 > curl -s date
 - The curl command transfers data to or from a network server, using one of the supported protocols (HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP or FILE).
