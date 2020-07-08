@@ -15,3 +15,36 @@
              v)   last reboot time 
  
  ##### Note:    each output for last option must be in a separate line   
+ 
+ >vim /root/delvex.sh
+```
+#!/bin/sh
+if [[ $1   ==   "time" ]]
+then
+        echo "current time `date +%T` "
+elif [[ $1   ==   "user" ]]
+then
+        echo "$SHELL"
+elif [[ $1  -eq   100 ]]
+then
+        i=0
+        while [ i -lt 100 ]
+        do
+                echo "hello delvex"
+                sleep 1
+                i++
+        done
+elif [[ $1  ==  "windows" ]]
+then
+        echo "`/sbin/shutdown -r now `"
+else
+        echo " kernel is`uname` "        
+        echo " version is`uname -r `"
+        echo " current date is`date +%x `"
+        echo " name of os`uname -o`"
+        echo "last reboot time`who -b`"
+fi
+```
+
+
+
